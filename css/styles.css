@@ -20,7 +20,7 @@
     --color-bg-dark: #0a0a0a;
     
     /* Typography */
-    --font-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-primary: 'Helvetica Neue', Helvetica, 'Inter', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
