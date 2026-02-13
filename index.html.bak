@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphafox - Healthcare Design Agency</title>
+    <meta name="description" content="Design that heals the experience, not just the interface. Healthcare design agency bridging clinical insight with exceptional digital experiences.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alphafox</a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="insights.html">Insights</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-label">HELLO, WE'RE ALPHAFOX</span>
+                <h1 class="hero-title">Design that heals the experience, not just the interface</h1>
+                <p class="hero-subtitle">We're a healthcare design agency that bridges clinical insight with exceptional digital experiences. Because better design leads to better health.</p>
+                <div class="hero-cta">
+                    <a href="contact.html" class="btn btn-primary">Start a Project</a>
+                    <a href="work.html" class="btn btn-secondary">View Our Work</a>
+                </div>
+                <p class="hero-supporting">From patient portals to digital therapeutics, we transform complex healthcare challenges into clear, compassionate experiences that improve outcomes and build trust.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/healthcare-team-meeting.jpg" alt="Black healthcare professional using digital technology" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section class="section problem-section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Healthcare deserves better design</h2>
+                <div class="two-column">
+                    <div class="column">
+                        <p>Too often, healthcare digital experiences are confusing, frustrating, and inaccessible—exactly when people need clarity most. Patients struggle with portals. Providers battle clunky workflows. And organizations wonder why engagement and satisfaction scores remain stubbornly low.</p>
+                        <p>The challenge isn't just aesthetic. It's about understanding clinical workflows, regulatory requirements, diverse patient populations, and the profound responsibility of designing for people's health.</p>
+                    </div>
+                    <div class="column">
+                        <div class="callout-box">
+                            <p class="callout-text">We believe every interaction in the healthcare journey should work for the humans it serves—patients, providers, and caregivers alike.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="section services-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Healthcare design that understands the stakes</h2>
+                <p class="section-intro">We combine clinical expertise with design excellence to create digital experiences that are compliant, accessible, and genuinely helpful.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Healthcare Software Design</h3>
+                    <p>From EHR interfaces to telehealth platforms, we design digital tools that clinicians actually want to use and patients can navigate with confidence.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Research & Insights</h3>
+                    <p>We don't guess about user needs—we validate them. Our research uncovers the real pain points and opportunities in your healthcare experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Patient Journey Mapping</h3>
+                    <p>We visualize the entire care continuum to identify where experiences break down and where design can make the biggest impact.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Healthcare Communications</h3>
+                    <p>Clear, empathetic communication is healthcare's superpower. We craft messages and materials that educate, engage, and inspire action.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Web & Digital Platforms</h3>
+                    <p>Your website is often the first impression of care. We design healthcare web experiences that build trust and guide people to the help they need.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Digital Health Strategy</h3>
+                    <p>Launching a digital health product? We help you navigate from concept through compliance, ensuring your solution is both clinically sound and user-centered.</p>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="services.html" class="link-arrow">Explore Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach Section -->
+    <section class="section approach-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How we work</h2>
+                <p class="section-intro">Great healthcare design requires more than creativity—it demands clinical understanding, rigorous research, and a commitment to the people we serve.</p>
+            </div>
+            <div class="content-with-image-left">
+                <div class="image-content">
+                    <img src="images/women-collaboration.jpg" alt="Black healthcare professionals in collaborative work session" loading="lazy">
+                </div>
+                <div class="text-content">
+                    <div class="pillars-grid" style="grid-template-columns: 1fr;">
+                        <div class="pillar">
+                            <h3>Clinical Insight</h3>
+                            <p>Our leadership brings real healthcare experience to every project. We understand patient safety, clinical workflows, regulatory requirements, and the unique pressures facing healthcare organizations. This isn't our side hustle—it's our calling.</p>
+                        </div>
+                        <div class="pillar">
+                            <h3>Research-Driven Design</h3>
+                            <p>Every decision is informed by evidence. We conduct user interviews, observe clinical workflows, test prototypes with real users, and measure outcomes. Our work improves health, not just interfaces.</p>
+                        </div>
+                        <div class="pillar">
+                            <h3>Compliance as Foundation</h3>
+                            <p>HIPAA, WCAG, FDA regulations—we design with compliance baked in from day one. This reduces risk, accelerates timelines, and ensures your digital experience is both beautiful and legally sound.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="section impact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Designed for outcomes, measured by impact</h2>
+                <p class="section-intro">We measure success by health outcomes, not just aesthetics. Here's what better design delivers:</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-number">87%</div>
+                    <div class="stat-label">improvement in task completion rates</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">reduction in patient portal support calls</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">45%</div>
+                    <div class="stat-label">increase in telehealth appointment completion</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">92%</div>
+                    <div class="stat-label">accessibility compliance achievement</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-label">reduction in provider documentation time</div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    <p>"Alphafox didn't just redesign our patient portal—they transformed how our patients engage with their care. The combination of clinical understanding and design expertise is unlike any agency we've worked with."</p>
+                    <cite>— Chief Digital Officer, Regional Health System</cite>
+                </blockquote>
+            </div>
+            <div class="section-cta">
+                <a href="work.html" class="link-arrow">See Our Case Studies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Serve Section -->
+    <section class="section clients-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Partners in healthcare transformation</h2>
+                <p class="section-intro">We work with healthcare organizations who understand that design is a strategic investment in better outcomes, not just a cosmetic upgrade.</p>
+            </div>
+            <div class="client-types">
+                <ul class="client-list">
+                    <li>Health systems and hospital networks</li>
+                    <li>Digital health startups</li>
+                    <li>Healthcare payers and insurers</li>
+                    <li>Pharmaceutical and life sciences companies</li>
+                    <li>Medical device manufacturers</li>
+                    <li>Telehealth platforms</li>
+                </ul>
+            </div>
+            <div class="pull-quote">
+                <p>"If you're committed to improving patient experience, reducing disparities, and building digital experiences that truly serve your community, we should talk."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Alphafox Section -->
+    <section class="section differentiators-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What makes us different</h2>
+            </div>
+            <div class="differentiators-grid">
+                <div class="differentiator">
+                    <h3>We speak healthcare fluently</h3>
+                    <p>Our founder brings clinical and business expertise, not just design skills. We understand the difference between a care plan and a treatment plan, what SDOH means, and why clinical validation matters.</p>
+                </div>
+                <div class="differentiator">
+                    <h3>We design for health equity</h3>
+                    <p>Exceptional healthcare experiences should be accessible to everyone. We actively design for underserved populations, ensuring our work reduces disparities rather than reinforcing them.</p>
+                </div>
+                <div class="differentiator">
+                    <h3>We're outcomes-obsessed</h3>
+                    <p>Pretty screens don't save lives—thoughtful design that improves adherence, reduces errors, and empowers decision-making does. We track what matters.</p>
+                </div>
+                <div class="differentiator">
+                    <h3>We partner, not just deliver</h3>
+                    <p>We become an extension of your team, sharing knowledge and building internal capabilities. When we leave, you're stronger.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to transform your healthcare experience?</h2>
+                <p>Whether you're launching a new digital health product, redesigning a patient portal, or mapping the patient journey, we're here to help you create experiences that truly serve patients and providers.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Schedule a Consultation</a>
+                    <a href="mailto:hello@alphafox.design" class="btn btn-secondary">hello@alphafox.design</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#software">Healthcare Software Design</a></li>
+                        <li><a href="services.html#research">Research & Insights</a></li>
+                        <li><a href="services.html#journey">Patient Journey Mapping</a></li>
+                        <li><a href="services.html#communications">Healthcare Communications</a></li>
+                        <li><a href="services.html#web">Web & Digital Platforms</a></li>
+                        <li><a href="services.html#strategy">Digital Health Strategy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="work.html">Case Studies</a></li>
+                        <li><a href="insights.html">Healthcare Design Guide</a></li>
+                        <li><a href="insights.html">Accessibility Resources</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p><strong>Alphafox</strong><br>Healthcare Design Agency</p>
+                    <p><a href="mailto:hello@alphafox.design">hello@alphafox.design</a></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Medium">Medium</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alphafox. All rights reserved.</p>
+                <p class="footer-tagline">Healthcare design that heals the experience.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

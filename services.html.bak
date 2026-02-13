@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Alphafox Healthcare Design Agency</title>
+    <meta name="description" content="Comprehensive healthcare design services from research to implementation. We guide healthcare organizations through creating digital experiences that improve outcomes.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Alphafox</a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="insights.html">Insights</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Comprehensive healthcare design services</h1>
+                <p class="page-hero-subtitle">From research to implementation, we guide healthcare organizations through every stage of creating digital experiences that improve outcomes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section">
+        <div class="container">
+            <div class="service-content" style="max-width: 800px;">
+                <p>Healthcare design requires specialized expertise—understanding not just users and interfaces, but clinical workflows, regulatory requirements, and the profound responsibility of designing for people's health. Our services span the full spectrum of healthcare digital experience, always grounded in research and driven by measurable outcomes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 1: Healthcare Software Design -->
+    <section class="service-detail" id="software">
+        <div class="container">
+            <div class="content-with-image-right">
+                <div class="text-content">
+                    <div class="service-header">
+                        <h2>Healthcare Software Design</h2>
+                        <p>We design healthcare applications that clinical teams actually want to use and patients can navigate with confidence. From electronic health records to telehealth platforms, our work improves workflows, reduces errors, and enhances the care experience.</p>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="images/diverse-healthcare-team.jpg" alt="Black healthcare professional with digital interface" loading="lazy">
+                </div>
+            </div>
+            
+            <div class="service-content">
+                <h3>What We Design:</h3>
+                <ul class="service-list">
+                    <li>Electronic Health Records (EHR) and clinical documentation systems</li>
+                    <li>Patient portals and engagement platforms</li>
+                    <li>Telehealth and virtual care applications</li>
+                    <li>Remote patient monitoring dashboards</li>
+                    <li>Clinical decision support tools</li>
+                    <li>Medical device interfaces</li>
+                    <li>Provider workflow optimization</li>
+                    <li>Healthcare mobile applications</li>
+                    <li>Care coordination platforms</li>
+                </ul>
+                
+                <h3>Our Process Includes:</h3>
+                <ul class="service-list">
+                    <li>User research with patients and clinical staff</li>
+                    <li>Workflow analysis and optimization</li>
+                    <li>HIPAA-compliant interface design</li>
+                    <li>Accessibility testing and compliance</li>
+                    <li>Usability testing with real users</li>
+                    <li>Design system development</li>
+                    <li>Implementation support</li>
+                </ul>
+                
+                <div class="outcomes-box">
+                    <h4>Outcomes:</h4>
+                    <ul class="service-list">
+                        <li>Improved task completion rates</li>
+                        <li>Reduced provider documentation burden</li>
+                        <li>Increased patient engagement</li>
+                        <li>Fewer medical errors</li>
+                        <li>Higher satisfaction scores</li>
+                    </ul>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Discuss Your Software Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 2: Research & Insights -->
+    <section class="service-detail" id="research">
+        <div class="container">
+            <div class="service-image">
+                <img src="images/healthcare-concept.jpg" alt="Black patient in healthcare research session" loading="lazy">
+            </div>
+            <div class="service-header">
+                <h2>Research & Insights Synthesis</h2>
+                <p>Great healthcare design starts with deep understanding. We conduct rigorous research to uncover user needs, validate assumptions, and identify opportunities for improvement—ensuring every design decision is grounded in evidence.</p>
+            </div>
+            
+            <div class="service-content">
+                <div class="service-features">
+                    <div class="feature-box">
+                        <h4>Discovery Research</h4>
+                        <ul class="service-list">
+                            <li>Stakeholder interviews and workshops</li>
+                            <li>Patient and provider interviews</li>
+                            <li>Clinical workflow observation</li>
+                            <li>Contextual inquiry</li>
+                            <li>Competitive and comparative analysis</li>
+                            <li>Healthcare ecosystem mapping</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Evaluative Research</h4>
+                        <ul class="service-list">
+                            <li>Usability testing (moderated and unmoderated)</li>
+                            <li>Accessibility audits</li>
+                            <li>Heuristic evaluations</li>
+                            <li>Clinical simulation testing</li>
+                            <li>A/B testing strategy and analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Foundational Research</h4>
+                        <ul class="service-list">
+                            <li>Patient persona development</li>
+                            <li>Provider persona development</li>
+                            <li>Jobs-to-be-done analysis</li>
+                            <li>Mental model mapping</li>
+                            <li>Behavioral research</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Synthesis & Strategy</h4>
+                        <ul class="service-list">
+                            <li>Research findings documentation</li>
+                            <li>Insight prioritization workshops</li>
+                            <li>Opportunity mapping</li>
+                            <li>Design principle development</li>
+                            <li>Strategic recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>What You Get:</h3>
+                <ul class="service-list">
+                    <li>Clear, actionable insights</li>
+                    <li>Validated user needs</li>
+                    <li>Prioritized opportunities</li>
+                    <li>Strategic design direction</li>
+                    <li>Stakeholder alignment</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Start a Research Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 3: Patient Journey Mapping -->
+    <section class="service-detail" id="journey">
+        <div class="container">
+            <div class="service-header">
+                <h2>Patient Journey Mapping</h2>
+                <p>Patient journeys in healthcare are complex, emotional, and often fragmented across multiple touchpoints. We map the entire care continuum to identify pain points, opportunities, and moments that matter most—giving you a roadmap for improvement.</p>
+            </div>
+            
+            <div class="service-content">
+                <h3>Journey Mapping Services:</h3>
+                
+                <h4>Comprehensive Journey Maps</h4>
+                <ul class="service-list">
+                    <li>End-to-end patient experience mapping</li>
+                    <li>Multi-channel touchpoint analysis</li>
+                    <li>Emotional journey visualization</li>
+                    <li>Pain point identification</li>
+                    <li>Service blueprint development</li>
+                </ul>
+                
+                <h4>Specialized Journey Maps</h4>
+                <ul class="service-list">
+                    <li>Condition-specific journeys (oncology, chronic disease, maternal health)</li>
+                    <li>Care continuum mapping (prevention through aftercare)</li>
+                    <li>Cross-system journey analysis</li>
+                    <li>Family and caregiver journeys</li>
+                    <li>Provider experience journeys</li>
+                </ul>
+                
+                <h4>Journey Optimization</h4>
+                <ul class="service-list">
+                    <li>Omnichannel experience strategy</li>
+                    <li>Transition point improvement</li>
+                    <li>Communication optimization</li>
+                    <li>Digital touchpoint enhancement</li>
+                    <li>Service delivery recommendations</li>
+                </ul>
+                
+                <h3>Deliverables:</h3>
+                <ul class="service-list">
+                    <li>Visual journey maps</li>
+                    <li>Persona-specific experiences</li>
+                    <li>Prioritized opportunities</li>
+                    <li>Quick-win recommendations</li>
+                    <li>Long-term strategic roadmap</li>
+                    <li>Measurement frameworks</li>
+                </ul>
+                
+                <div class="callout-box" style="margin: 2rem 0;">
+                    <p class="callout-text">Journey mapping reveals where experiences break down and where small changes can have outsized impact. It creates shared understanding across your organization and focuses improvement efforts where they matter most.</p>
+                </div>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Map Your Patient Journey</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 4: Healthcare Communications -->
+    <section class="service-detail" id="communications">
+        <div class="container">
+            <div class="service-header">
+                <h2>Healthcare Communications</h2>
+                <p>In healthcare, communication isn't just about information—it's about empowerment, understanding, and trust. We create health communications that are clear, culturally sensitive, and accessible to diverse populations.</p>
+            </div>
+            
+            <div class="service-content">
+                <div class="service-features">
+                    <div class="feature-box">
+                        <h4>Health Literacy & Education</h4>
+                        <ul class="service-list">
+                            <li>Patient education materials</li>
+                            <li>Clinical instruction simplification</li>
+                            <li>Plain language conversion</li>
+                            <li>Medication guides and instructions</li>
+                            <li>Preventive care education</li>
+                            <li>Chronic disease management resources</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Healthcare Content Strategy</h4>
+                        <ul class="service-list">
+                            <li>Health literacy assessments</li>
+                            <li>Content architecture and governance</li>
+                            <li>Editorial guidelines</li>
+                            <li>Multi-language content strategy</li>
+                            <li>Cultural adaptation</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Brand & Messaging</h4>
+                        <ul class="service-list">
+                            <li>Healthcare brand strategy</li>
+                            <li>Mission-driven messaging frameworks</li>
+                            <li>Patient-facing communications</li>
+                            <li>Provider communications</li>
+                            <li>Health equity messaging</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Campaign Design</h4>
+                        <ul class="service-list">
+                            <li>Patient acquisition campaigns</li>
+                            <li>Health awareness initiatives</li>
+                            <li>Preventive care promotion</li>
+                            <li>Behavior change campaigns</li>
+                            <li>Community health communications</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>What Makes Our Communications Different:</h3>
+                <ul class="service-list">
+                    <li>Written at appropriate health literacy levels</li>
+                    <li>Culturally and linguistically appropriate</li>
+                    <li>Accessible to people with disabilities</li>
+                    <li>Validated through user testing</li>
+                    <li>Aligned with health equity principles</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Improve Your Communications</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 5: Web & Digital Platforms -->
+    <section class="service-detail" id="web">
+        <div class="container">
+            <div class="service-header">
+                <h2>Web & Digital Platforms</h2>
+                <p>Your website is often the first touchpoint in someone's healthcare journey. We design web experiences that make complex healthcare systems navigable, build trust in your care, and guide people to the help they need.</p>
+            </div>
+            
+            <div class="service-content">
+                <h3>Healthcare Websites:</h3>
+                <ul class="service-list">
+                    <li>Hospital and health system websites</li>
+                    <li>Medical practice websites</li>
+                    <li>Specialty clinic websites</li>
+                    <li>Healthcare provider directories</li>
+                    <li>Patient education portals</li>
+                    <li>Wellness and prevention platforms</li>
+                </ul>
+                
+                <h3>Key Features We Design:</h3>
+                <ul class="service-list">
+                    <li>Appointment scheduling systems</li>
+                    <li>Patient intake and registration</li>
+                    <li>Provider search and profiles</li>
+                    <li>Insurance verification</li>
+                    <li>Billing and payment experiences</li>
+                    <li>Results and records access</li>
+                    <li>Symptom checkers</li>
+                    <li>Health content libraries</li>
+                </ul>
+                
+                <div class="service-features">
+                    <div class="feature-box">
+                        <h4>Content Strategy</h4>
+                        <ul class="service-list">
+                            <li>Information architecture</li>
+                            <li>Healthcare content strategy</li>
+                            <li>SEO for healthcare (with compliance considerations)</li>
+                            <li>Content governance frameworks</li>
+                            <li>Content migration and optimization</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Technical Excellence</h4>
+                        <ul class="service-list">
+                            <li>Responsive design for all devices</li>
+                            <li>WCAG 2.1 AA accessibility compliance</li>
+                            <li>HIPAA-compliant form design</li>
+                            <li>Performance optimization</li>
+                            <li>Analytics and measurement</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>Our Websites:</h3>
+                <ul class="service-list">
+                    <li>Build trust from the first click</li>
+                    <li>Guide people to the right care</li>
+                    <li>Work seamlessly across devices</li>
+                    <li>Meet accessibility standards</li>
+                    <li>Integrate with existing systems</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Redesign Your Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 6: Digital Health Product Strategy -->
+    <section class="service-detail" id="strategy">
+        <div class="container">
+            <div class="service-header">
+                <h2>Digital Health Product Strategy</h2>
+                <p>Launching a digital health product requires navigating complex regulatory requirements, validating clinical utility, and ensuring genuine user fit. We guide digital health innovators from idea through implementation with strategic design thinking and healthcare expertise.</p>
+            </div>
+            
+            <div class="service-content">
+                <div class="service-features">
+                    <div class="feature-box">
+                        <h4>Product Discovery</h4>
+                        <ul class="service-list">
+                            <li>Market opportunity assessment</li>
+                            <li>User needs validation</li>
+                            <li>Clinical workflow fit analysis</li>
+                            <li>Competitive landscape analysis</li>
+                            <li>Feature prioritization</li>
+                            <li>MVP definition</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Healthcare Product Design</h4>
+                        <ul class="service-list">
+                            <li>Digital therapeutic interfaces</li>
+                            <li>Wellness and fitness apps</li>
+                            <li>Clinical workflow software</li>
+                            <li>Care coordination platforms</li>
+                            <li>Remote monitoring solutions</li>
+                            <li>Population health tools</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Regulatory Strategy</h4>
+                        <ul class="service-list">
+                            <li>Design for FDA compliance pathways</li>
+                            <li>Risk mitigation through design</li>
+                            <li>Clinical validation planning</li>
+                            <li>Quality management system integration</li>
+                            <li>Post-market surveillance considerations</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="feature-box">
+                        <h4>Go-to-Market Support</h4>
+                        <ul class="service-list">
+                            <li>Product positioning</li>
+                            <li>User acquisition strategy</li>
+                            <li>Healthcare partner development</li>
+                            <li>Payer strategy considerations</li>
+                            <li>Clinical evidence development</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <h3>Who We Help:</h3>
+                <ul class="service-list">
+                    <li>Digital health startups</li>
+                    <li>Healthcare innovation labs</li>
+                    <li>Medical device companies</li>
+                    <li>Pharmaceutical digital health initiatives</li>
+                    <li>Health tech companies</li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="contact.html" class="link-arrow">Discuss Your Product</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Solutions Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need something else?</h2>
+                <p>Every healthcare organization faces unique challenges. If you don't see exactly what you need above, let's talk. We create custom solutions for healthcare accessibility audits, design system development, provider experience optimization, health equity assessments, and more.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Tell Us Your Challenge</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#software">Healthcare Software Design</a></li>
+                        <li><a href="services.html#research">Research & Insights</a></li>
+                        <li><a href="services.html#journey">Patient Journey Mapping</a></li>
+                        <li><a href="services.html#communications">Healthcare Communications</a></li>
+                        <li><a href="services.html#web">Web & Digital Platforms</a></li>
+                        <li><a href="services.html#strategy">Digital Health Strategy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="work.html">Case Studies</a></li>
+                        <li><a href="insights.html">Healthcare Design Guide</a></li>
+                        <li><a href="insights.html">Accessibility Resources</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p><strong>Alphafox</strong><br>Healthcare Design Agency</p>
+                    <p><a href="mailto:hello@alphafox.design">hello@alphafox.design</a></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Medium">Medium</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alphafox. All rights reserved.</p>
+                <p class="footer-tagline">Healthcare design that heals the experience.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

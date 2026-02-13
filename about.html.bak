@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About — Alphafox Healthcare Design Agency</title>
+    <title>About - Alphafox Healthcare Design Agency</title>
     <meta name="description" content="Learn about Alphafox, a healthcare design agency dedicated to creating digital experiences that match the quality of care being delivered.">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,92 +15,64 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">Alphafox</a>
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="work.html">Work</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html" class="active">About</a></li>
                 <li><a href="insights.html">Insights</a></li>
-                <li><a href="contact.html" class="nav-cta">Let's Collaborate</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Page Hero -->
+    <!-- Hero Section -->
     <section class="page-hero">
         <div class="container">
-            <div class="page-hero-content reveal">
+            <div class="page-hero-content">
                 <h1>Design that understands what's at stake</h1>
                 <p class="page-hero-subtitle">Alphafox exists because healthcare deserves digital experiences that match the quality of the care being delivered.</p>
             </div>
         </div>
     </section>
 
-    <!-- Our Story -->
+    <!-- Our Story Section -->
     <section class="section story-section">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Our Story</span>
-                <h2 class="section-title">Why we exist</h2>
-            </div>
-
-            <div class="content-with-image-right reveal">
+            <h2 class="section-title">Why we exist</h2>
+            <div class="content-with-image-right">
                 <div class="text-content">
                     <div class="story-content">
                         <p>Alphafox was founded on a simple but powerful belief: the gap between clinical excellence and digital experience is costing lives, deepening disparities, and undermining trust in healthcare.</p>
+                        
                         <p>Too many patient portals frustrate the people they're meant to serve. Too many clinical tools slow down providers instead of supporting them. Too many health apps are abandoned because they don't fit into real lives.</p>
+                        
                         <p>This isn't just about design—it's about outcomes. When a medication reminder actually helps someone adhere to their treatment. When a telehealth interface makes care accessible to someone who couldn't otherwise receive it. When a provider spends less time clicking and more time connecting with patients.</p>
+                        
                         <p><strong>That's the healthcare experience we're here to create.</strong></p>
                     </div>
                 </div>
                 <div class="image-content">
-                    <img src="images/team-collaboration.jpg" alt="Healthcare professionals collaborating" loading="lazy">
+                    <img src="images/team-collaboration.jpg" alt="Black healthcare professionals collaborating" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission -->
-    <section class="section" style="background: var(--off-white);">
+    <!-- Mission & Values Section -->
+    <section class="section values-section">
         <div class="container">
-            <div class="mission-box reveal">
+            <div class="mission-box">
                 <h3>Our Mission</h3>
                 <p>We transform complex healthcare challenges into clear, compassionate digital experiences that improve outcomes, build trust, and advance health equity.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Numbers -->
-    <div class="stats-ribbon">
-        <div class="container">
-            <div class="stat-item">
-                <span class="stat-number">87%</span>
-                <span class="stat-label">avg. improvement in task completion</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">500K+</span>
-                <span class="stat-label">patients served through our designs</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">40%</span>
-                <span class="stat-label">reduction in provider documentation time</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number">100%</span>
-                <span class="stat-label">WCAG 2.1 AA compliance</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Values -->
-    <section class="section values-section">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">What Drives Us</span>
-                <h2 class="section-title">Our Values</h2>
-            </div>
-
-            <div class="values-grid stagger">
+            
+            <h2 class="section-title" style="margin-top: 4rem;">Our Values</h2>
+            <div class="values-grid">
                 <div class="value-card">
                     <h3>Human-centered healthcare</h3>
                     <p>We design for real people facing real health challenges. Every decision prioritizes the patient experience while supporting clinical workflows and organizational goals.</p>
@@ -125,15 +97,12 @@
         </div>
     </section>
 
-    <!-- Design Principles -->
-    <section class="section principles-section" style="background: var(--off-white);">
+    <!-- Design Principles Section -->
+    <section class="section principles-section">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Our Approach</span>
-                <h2 class="section-title">How we think about healthcare design</h2>
-            </div>
-
-            <div class="principles-grid stagger">
+            <h2 class="section-title">How we think about healthcare design</h2>
+            
+            <div class="principles-grid">
                 <div class="principle">
                     <h3>Design for the vulnerable moment</h3>
                     <p>Healthcare users are often stressed, scared, or unwell. Our designs provide clarity and calm exactly when it's needed most.</p>
@@ -162,14 +131,14 @@
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta-section">
+    <!-- Join Us Section -->
+    <section class="section cta-section">
         <div class="container">
-            <div class="cta-content reveal">
+            <div class="cta-content">
                 <h2>Interested in joining our mission?</h2>
+                <p>We're always looking for talented designers, researchers, and strategists who are passionate about improving healthcare through exceptional digital experiences.</p>
                 <div class="cta-buttons">
-                    <a href="careers.html" class="btn btn-white">View Open Positions</a>
-                    <a href="contact.html" class="btn btn-outline-white">Get in Touch</a>
+                    <a href="careers.html" class="btn btn-primary">View Open Positions</a>
                 </div>
             </div>
         </div>
@@ -178,12 +147,6 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">Alphafox</a>
-                    <p class="footer-tagline">Design that heals the experience.</p>
-                </div>
-            </div>
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>Services</h4>
@@ -212,21 +175,23 @@
                         <li><a href="work.html">Case Studies</a></li>
                         <li><a href="insights.html">Healthcare Design Guide</a></li>
                         <li><a href="insights.html">Accessibility Resources</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Connect</h4>
+                    <h4>Contact</h4>
+                    <p><strong>Alphafox</strong><br>Healthcare Design Agency</p>
                     <p><a href="mailto:hello@alphafox.design">hello@alphafox.design</a></p>
                     <div class="social-links">
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Dribbble</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Medium">Medium</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Alphafox. All rights reserved.</p>
-                <p><a href="#" style="color: var(--gray-400);">Privacy Policy</a></p>
+                <p>&copy; 2025 Alphafox. All rights reserved.</p>
+                <p class="footer-tagline">Healthcare design that heals the experience.</p>
             </div>
         </div>
     </footer>
@@ -234,3 +199,4 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+

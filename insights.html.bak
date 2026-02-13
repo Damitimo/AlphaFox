@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insights — Alphafox Healthcare Design Agency</title>
+    <title>Insights - Alphafox Healthcare Design Agency</title>
     <meta name="description" content="Practical guidance, research findings, and perspectives on creating better healthcare experiences.">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,21 +15,25 @@
     <nav class="navbar">
         <div class="container">
             <a href="index.html" class="logo">Alphafox</a>
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="work.html">Work</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="insights.html" class="active">Insights</a></li>
-                <li><a href="contact.html" class="nav-cta">Let's Collaborate</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Page Hero -->
+    <!-- Hero Section -->
     <section class="page-hero">
         <div class="container">
-            <div class="page-hero-content reveal">
+            <div class="page-hero-content">
                 <h1>Insights on healthcare design</h1>
                 <p class="page-hero-subtitle">Practical guidance, research findings, and perspectives on creating better healthcare experiences.</p>
             </div>
@@ -39,30 +43,34 @@
     <!-- Featured Article -->
     <section class="section">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Featured</span>
-            </div>
-
-            <div class="case-study reveal" style="max-width: 960px;">
-                <span class="case-label">Featured Article</span>
-                <h2 style="font-size: clamp(1.75rem, 3vw, 2.5rem); margin-bottom: 1rem; line-height: 1.2;">The Real Cost of Poor Healthcare UX: Why Design Isn't Optional</h2>
-                <p style="color: var(--gray-500); margin-bottom: 1.5rem;">By Alphafox Team &middot; 15 min read &middot; Healthcare UX</p>
-                <p style="font-size: 1.125rem; line-height: 1.7; color: var(--gray-600);">When a patient can't figure out how to refill their medication online, that's not just a usability problem—it's a health outcome problem. Here's what healthcare leaders need to understand about the business and clinical case for exceptional design...</p>
-                <a href="#" class="link-arrow" style="margin-top: 1.5rem; display: inline-block;">Read More</a>
+            <div class="case-study" style="max-width: 900px; margin: 0 auto;">
+                <div class="case-study-content">
+                    <span class="case-label">Featured Article</span>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">The Real Cost of Poor Healthcare UX: Why Design Isn't Optional</h2>
+                    <p class="insight-meta" style="margin-bottom: 2rem;">By Alphafox Team • 15 min read • Healthcare UX</p>
+                    <p style="font-size: 1.25rem; line-height: 1.7; color: var(--color-text-light);">When a patient can't figure out how to refill their medication online, that's not just a usability problem—it's a health outcome problem. Here's what healthcare leaders need to understand about the business and clinical case for exceptional design...</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="#" class="link-arrow">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Articles Grid -->
-    <section class="section" style="background: var(--off-white);">
+    <!-- Article Categories -->
+    <section class="section" style="background-color: var(--color-bg-light);">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-label">Latest</span>
-                <h2 class="section-title">Latest Articles</h2>
-            </div>
-
-            <div class="insights-grid stagger">
+            <h2 class="section-title">Latest Articles</h2>
+            
+            <div class="insights-grid">
+                <!-- Healthcare UX Best Practices -->
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M40 25V55M25 40H55" stroke="#0066FF" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Healthcare UX</span>
                         <h3>Designing HIPAA-Compliant User Experiences</h3>
@@ -70,8 +78,14 @@
                         <p class="insight-meta">12 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <circle cx="40" cy="40" r="15" stroke="#0066FF" stroke-width="3"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Accessibility</span>
                         <h3>Accessibility in Healthcare: Beyond Compliance</h3>
@@ -79,8 +93,14 @@
                         <p class="insight-meta">10 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <rect x="25" y="25" width="30" height="30" stroke="#0066FF" stroke-width="3"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Patient Portals</span>
                         <h3>Patient Portal Design Patterns That Work</h3>
@@ -88,8 +108,15 @@
                         <p class="insight-meta">15 min read</p>
                     </div>
                 </article>
-
+                
+                <!-- Research & Insights -->
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M30 50L40 35L50 45L60 30" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Research</span>
                         <h3>What 50+ Patient Interviews Taught Us About Portal Design</h3>
@@ -97,17 +124,30 @@
                         <p class="insight-meta">18 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M25 40H35L40 30L45 50L50 40H60" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Trends</span>
-                        <h3>Healthcare Design Trends for 2026</h3>
+                        <h3>Healthcare Design Trends for 2025</h3>
                         <p class="insight-excerpt">The design trends shaping the future of healthcare digital experiences, from AI integration to personalized care journeys.</p>
                         <p class="insight-meta">8 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <circle cx="35" cy="35" r="8" stroke="#0066FF" stroke-width="3"/>
+                            <circle cx="55" cy="50" r="6" stroke="#0066FF" stroke-width="3"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Telehealth</span>
                         <h3>Why Telehealth UX Matters More Than Ever</h3>
@@ -115,8 +155,15 @@
                         <p class="insight-meta">11 min read</p>
                     </div>
                 </article>
-
+                
+                <!-- Product Strategy -->
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M30 40L40 30L50 40L60 30" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Digital Health</span>
                         <h3>FDA Considerations for Digital Health Products</h3>
@@ -124,8 +171,14 @@
                         <p class="insight-meta">14 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <rect x="30" y="30" width="20" height="20" stroke="#0066FF" stroke-width="3"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Product Strategy</span>
                         <h3>From MVP to Medical Device: A Design Guide</h3>
@@ -133,8 +186,14 @@
                         <p class="insight-meta">16 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M40 25L50 40L40 55L30 40Z" stroke="#0066FF" stroke-width="3" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Engagement</span>
                         <h3>Building Healthcare Products People Actually Use</h3>
@@ -142,8 +201,16 @@
                         <p class="insight-meta">13 min read</p>
                     </div>
                 </article>
-
+                
+                <!-- Health Equity & Accessibility -->
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <circle cx="30" cy="40" r="8" stroke="#0066FF" stroke-width="3"/>
+                            <circle cx="50" cy="40" r="8" stroke="#0066FF" stroke-width="3"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Health Equity</span>
                         <h3>Designing for Health Equity: A Practical Framework</h3>
@@ -151,8 +218,14 @@
                         <p class="insight-meta">17 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M25 35H55M25 45H55" stroke="#0066FF" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Accessibility</span>
                         <h3>Accessibility Audit Checklist for Healthcare</h3>
@@ -160,8 +233,14 @@
                         <p class="insight-meta">9 min read</p>
                     </div>
                 </article>
-
+                
                 <article class="insight-card">
+                    <div class="insight-image">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" fill="#f8f8f8"/>
+                            <path d="M40 25V55M25 40H55" stroke="#0066FF" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
                     <div class="insight-content">
                         <span class="insight-category">Cultural Competency</span>
                         <h3>Cultural Competency in Healthcare Design</h3>
@@ -169,14 +248,15 @@
                         <p class="insight-meta">12 min read</p>
                     </div>
                 </article>
+                
             </div>
         </div>
     </section>
 
-    <!-- Newsletter -->
+    <!-- Newsletter Section -->
     <section class="newsletter-section">
         <div class="container">
-            <div class="newsletter-content reveal">
+            <div class="newsletter-content">
                 <h2>Healthcare design insights delivered monthly</h2>
                 <p>Get practical guidance, research findings, and perspectives on creating better healthcare experiences. No spam, just substance.</p>
                 <form class="newsletter-form">
@@ -187,27 +267,9 @@
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content reveal">
-                <h2>Want to discuss a healthcare design challenge?</h2>
-                <div class="cta-buttons">
-                    <a href="contact.html" class="btn btn-white">Let's Collaborate</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">Alphafox</a>
-                    <p class="footer-tagline">Design that heals the experience.</p>
-                </div>
-            </div>
             <div class="footer-grid">
                 <div class="footer-column">
                     <h4>Services</h4>
@@ -236,21 +298,23 @@
                         <li><a href="work.html">Case Studies</a></li>
                         <li><a href="insights.html">Healthcare Design Guide</a></li>
                         <li><a href="insights.html">Accessibility Resources</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4>Connect</h4>
+                    <h4>Contact</h4>
+                    <p><strong>Alphafox</strong><br>Healthcare Design Agency</p>
                     <p><a href="mailto:hello@alphafox.design">hello@alphafox.design</a></p>
                     <div class="social-links">
-                        <a href="#">LinkedIn</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Dribbble</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Medium">Medium</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Alphafox. All rights reserved.</p>
-                <p><a href="#" style="color: var(--gray-400);">Privacy Policy</a></p>
+                <p>&copy; 2025 Alphafox. All rights reserved.</p>
+                <p class="footer-tagline">Healthcare design that heals the experience.</p>
             </div>
         </div>
     </footer>
@@ -258,3 +322,4 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+
