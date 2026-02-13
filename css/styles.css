@@ -18,8 +18,8 @@
     --gray-500: #6e6e68;
     --gray-600: #484844;
     --gray-700: #2c2c28;
-    --accent: #0055FF;
-    --accent-light: #3377FF;
+    --accent: #E00037;
+    --accent-light: #F01A50;
 
     /* Typography */
     --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
@@ -198,6 +198,17 @@ p {
     color: var(--black);
     letter-spacing: -0.04em;
     transition: var(--transition);
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .nav-menu {
@@ -268,7 +279,7 @@ p {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 6rem;
+    padding-top: 16rem;
     padding-bottom: var(--space-xl);
     background: var(--white);
     position: relative;
@@ -288,7 +299,7 @@ p {
     line-height: 1.05;
     letter-spacing: -0.04em;
     color: var(--black);
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-statement .highlight {
@@ -720,7 +731,7 @@ p {
 }
 
 .cta-content {
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -763,7 +774,8 @@ p {
     color: var(--white);
     font-size: 2rem;
     margin-bottom: var(--space-sm);
-    display: block;
+    display: flex !important;
+    flex-direction: row !important;
 }
 
 .footer-tagline {
@@ -839,11 +851,11 @@ p {
     min-height: 60vh;
     display: flex;
     align-items: flex-end;
-    padding: calc(var(--space-2xl) + 80px) 0 var(--space-xl);
+    padding: calc(var(--space-2xl) + 16rem) 0 var(--space-xl);
     background: var(--white);
 }
 
-.page-hero-content { max-width: 900px; }
+.page-hero-content { max-width: 100%; }
 
 .page-hero h1 { margin-bottom: var(--space-md); }
 
@@ -1085,7 +1097,7 @@ p {
     color: var(--white);
     padding: var(--space-xl);
     border-radius: var(--radius-lg);
-    max-width: 900px;
+    max-width: 100%;
 }
 .mission-box h3 {
     font-size: var(--label);
@@ -1861,7 +1873,7 @@ p {
         font-size: 1.25rem !important;
     }
 
-    .hero { min-height: auto; padding-top: 8rem; padding-bottom: var(--space-lg); }
+    .hero { min-height: auto; padding-top: 10rem; padding-bottom: var(--space-lg); }
     .hero-statement { font-size: clamp(2.25rem, 8vw, 3.5rem); }
     .hero-unite .pill { font-size: 1rem; padding: 0.5rem 1rem; }
 
@@ -1910,4 +1922,57 @@ p {
     .footer-grid { grid-template-columns: 1fr; }
     .insights-grid { grid-template-columns: 1fr; }
     .numbers-grid { grid-template-columns: 1fr; }
+}
+
+/* ---------- Modal ---------- */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    padding: var(--space-md);
+}
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    max-width: 540px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+.modal-overlay.active .modal {
+    transform: translateY(0);
+}
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    background: none;
+    border: none;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: var(--gray-500);
+    line-height: 1;
+    padding: 0.25rem;
+}
+.modal-close:hover { color: var(--black); }
+.modal h3 {
+    font-size: var(--h4);
+    margin-bottom: 0.25rem;
+    padding-right: 2rem;
 }

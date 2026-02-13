@@ -150,3 +150,20 @@ document.addEventListener('DOMContentLoaded', () => {
         ticker.innerHTML = clone + clone;
     }
 });
+
+// ---------- Modal (click outside to close, Escape key) ----------
+document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('modal-overlay')) {
+        e.target.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const modal = document.querySelector('.modal-overlay.active');
+        if (modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
+});
